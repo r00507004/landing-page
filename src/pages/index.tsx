@@ -4,8 +4,8 @@ import { Features, Footer, Form, Header, Hero } from "../components"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <div className="flex justify-center bg-gray-50">
-      <div className="flex flex-col w-full max-w-7xl mx-16">
+    <div className="flex justify-center mx-2 bg-gray-50">
+      <div className="flex flex-col w-full max-w-7xl">
         <header>
           <Header/>
         </header>
