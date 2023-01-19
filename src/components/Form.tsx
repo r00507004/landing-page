@@ -2,7 +2,7 @@ import React from "react";
 
 const Form: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center mx-2 mt-32 p-4 bg-white rounded-lg shadow-lg">
+    <div id="form" className="flex flex-col justify-center items-center mx-2 mt-32 p-8 bg-white rounded-lg shadow-lg">
       <div className="text-lg font-bold">メールアドレスを登録</div>
       <div className="text-base mt-4">メールアドレスをご登録頂いた方に、最新情報をお届けします。</div>
       <input
