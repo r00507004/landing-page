@@ -1,7 +1,7 @@
-import Features from './Features';
+import Feature from './Feature';
 import Footer from './Footer';
 import Form from './Form';
 import Header from './Header';
 import Hero from './Hero';
 
-export { Features, Footer, Form, Header, Hero };
+export { Feature, Footer, Form, Header, Hero };
