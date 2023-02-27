@@ -10,6 +10,18 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     'gatsby-plugin-postcss',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Landing Page`,
+        short_name: `LP`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
+        icon: "src/images/favicon.png",
+      },
+    },
   ],
   pathPrefix: '/landing-page',
 }
