@@ -20,7 +20,7 @@ const Hero: React.FC<Props> = ({headline, sentence, image}) => {
         <div className="text-5xl font-bold">{headline}</div>
         <div className="text-lg mt-8">{sentence}</div>
         <div className="flex justify-center items-center w-full h-full">
-          <button onClick={ handleScrollToForm } className="my-8 px-8 py-2 text-lg text-white font-bold rounded-full bg-pink-500 hover:bg-pink-400">無料先行登録</button>
+          <button id="ctaButtonScroll" onClick={ handleScrollToForm } className="my-8 px-8 py-2 text-lg text-white font-bold rounded-full bg-pink-500 hover:bg-pink-400">無料先行登録</button>
         </div>
       </div>
       <div className="flex flex-col flex-1 justify-center items-center min-w-[320px] mx-2 my-2">

@@ -9,7 +9,13 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
-    'gatsby-plugin-postcss',
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "YOUR_GOOGLE_TAGMANAGER_ID",
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -22,6 +28,7 @@ const config: GatsbyConfig = {
         icon: "src/images/favicon.png",
       },
     },
+    'gatsby-plugin-postcss',
   ],
   pathPrefix: '/landing-page',
 }

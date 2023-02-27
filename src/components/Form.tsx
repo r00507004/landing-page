@@ -44,7 +44,7 @@ const Form: React.FC = () => {
               placeholder="メールアドレス入力"
               required
             />
-            <button type="submit" className="mt-4 px-8 py-2 text-lg text-white font-bold rounded-full bg-pink-500 hover:bg-pink-400">無料先行登録</button>
+            <button id="ctaButtonSubmit" type="submit" className="mt-4 px-8 py-2 text-lg text-white font-bold rounded-full bg-pink-500 hover:bg-pink-400">無料先行登録</button>
           </form>
         )
       }
