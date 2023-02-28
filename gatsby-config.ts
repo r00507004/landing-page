@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "YOUR_GOOGLE_TAGMANAGER_ID",
+        id: process.env.GATSBY_GOOGLE_TAGMANAGER_ID,
         defaultDataLayer: { platform: "gatsby" },
       },
     },
